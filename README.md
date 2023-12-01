@@ -1,5 +1,6 @@
 ## SC情感分析 专业实践 Task1
 ### 1. 项目结构：
+```
 .  
 ├── config.py  
 ├── dataset  
@@ -16,7 +17,6 @@
 │   │   ├── README.txt  
 │   │   └── sentiment_analysis_testa.csv  
 │   ├── train_data  
-│   │   ├── ~$ntiment_analysis_trainingset_annotations.docx  
 │   │   ├── protocol.txt  
 │   │   ├── README.txt  
 │   │   ├── sentiment_analysis_trainingset_annotations.docx  
@@ -30,16 +30,7 @@
 ├── models  
 │   ├── My_BERT.py  
 │   ├── My_LSTM.py  
-│   ├── My_TextCNN.py  
-│   └── __pycache__  
-│       ├── My_BERT.cpython-38.pyc  
-│       ├── My_LSTM.cpython-38.pyc  
-│       └── My_TextCNN.cpython-38.pyc  
-├── __pycache__  
-│   ├── config.cpython-38.pyc  
-│   ├── test.cpython-38.pyc  
-│   ├── train.cpython-38.pyc  
-│   └── valid.cpython-38.pyc  
+│   └── My_TextCNN.py  
 ├── README.md  
 ├── results  
 │   ├── BERT.log  
@@ -55,18 +46,13 @@
 ├── utils  
 │   ├── data_loader.py  
 │   ├── preprocessing.py  
-│   ├── __pycache__  
-│   │   ├── data_loader.cpython-38.pyc  
-│   │   ├── preprocessing.cpython-38.pyc  
-│   │   └── strategy.cpython-38.pyc  
 │   └── strategy.py  
 ├── valid.py  
 └── word2vec_pretrain.py  
-
-13 directories, 48 files  
+```
 
 ### 2. 项目说明
-见 `专业实践：情感分类技术实践.pdf`
+- 见 `专业实践：情感分类技术实践.pdf`
 
 ### 3. 数据集说明
 - `dataset/test_data` 、 `dataset/val_data` 、 `dataset/train_data` 来自于 `AIchallenger2018` 竞赛， 详见 **2.项目说明** 。
@@ -82,11 +68,15 @@
 - `results/` 包含三个模型, 均为对应实验最终调得的最优模型
 
 ### 5. 超参数说明
-详见 `config.py`
+- 详见 `config.py`
 
 ### 6. 实验结果说明
 - `results/` 保存了训练过程中的log文件  
 后续会更新实验的全过程
+
+### 7. 资源获取方式
+- 为方便测试, 已将训练好的模型参数上传至百度网盘, 包括`other_resources/word2vec/`以及`results/`文件夹下所有模型文件。  
+  链接: https://pan.baidu.com/s/1NnC5woINONFamenxBB2GdA?pwd=e82i 提取码: e82i 
 
 
 

@@ -1,0 +1,7 @@
+__pycache__
+*.pth
+*.bin
+*.model
+*.zip
+*.csv
+*.docx

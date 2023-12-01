@@ -1,0 +1,95 @@
+=======================================================================================
+The current date and time is 2023-10-04 10:02:24.167355
+
+
+{'model_path': '/home/CodeSpace/Proj1/dataset/other_resources/bert-base-chinese', 'tokenizer_path': '/home/CodeSpace/Proj1/dataset/other_resources/bert-base-chinese', 'sentence_max_length': 350, 'embed_dim': 200, 'class_num': 4, 'label_num': 20, 'dropout': 0.25}
+{'lr': 5e-05, 'weight_decay': 1e-06, 'schedule': 'CosineAnnealingLR', 'epoch': 5, 'batch_size': 32}
+
+
+训练数据加载完成
+验证数据加载完成
+best valid F1 has improved (0.0---->0.654539031634979)
+A new best model state  has saved
+
+
+
+
+=======================================================================================
+The current date and time is 2023-10-04 11:26:54.464370
+
+
+{'model_path': '/home/CodeSpace/Proj1/dataset/other_resources/bert-base-chinese', 'tokenizer_path': '/home/CodeSpace/Proj1/dataset/other_resources/bert-base-chinese', 'sentence_max_length': 350, 'embed_dim': 200, 'class_num': 4, 'label_num': 20, 'dropout': 0.25}
+{'lr': 5e-06, 'weight_decay': 1e-06, 'schedule': 'CosineAnnealingLR', 'epoch': 5, 'batch_size': 32}
+
+
+训练数据加载完成
+验证数据加载完成
+best valid F1 has improved (0.0---->0.6724769906854721)
+A new best model state  has saved
+best valid F1 has improved (0.6724769906854721---->0.6762834335847886)
+A new best model state  has saved
+
+
+
+
+=======================================================================================
+The current date and time is 2023-10-04 12:42:33.005676
+
+
+{'model_path': '/home/CodeSpace/Proj1/dataset/other_resources/bert-base-chinese', 'tokenizer_path': '/home/CodeSpace/Proj1/dataset/other_resources/bert-base-chinese', 'sentence_max_length': 350, 'embed_dim': 200, 'class_num': 4, 'label_num': 20, 'dropout': 0.25}
+{'lr': 5e-06, 'weight_decay': 1e-06, 'schedule': 'CosineAnnealingLR', 'epoch': 5, 'batch_size': 32}
+
+
+训练数据加载完成
+验证数据加载完成
+best valid F1 has improved (0.0---->0.6618515447953568)
+A new best model state  has saved
+
+
+
+
+=======================================================================================
+The current date and time is 2023-10-10 08:45:33.440312
+
+
+{'model_path': '/home/CodeSpace/Proj1/dataset/other_resources/bert-base-chinese', 'tokenizer_path': '/home/CodeSpace/Proj1/dataset/other_resources/bert-base-chinese', 'sentence_max_length': 350, 'embed_dim': 200, 'class_num': 4, 'label_num': 20, 'dropout': 0.5}
+{'lr': 5e-06, 'weight_decay': 1e-06, 'schedule': 'CosineAnnealingLR', 'epoch': 5, 'batch_size': 32}
+
+
+训练数据加载完成
+验证数据加载完成
+best valid F1 has improved (0.0---->0.6716747795912948)
+A new best model state  has saved
+
+
+
+
+
+
+
+
+
+=======================================================================================
+The current date and time is 2023-10-10 09:33:49.290684
+
+
+{'model_path': '/home/CodeSpace/Proj1/dataset/other_resources/bert-base-chinese', 'tokenizer_path': '/home/CodeSpace/Proj1/dataset/other_resources/bert-base-chinese', 'sentence_max_length': 350, 'embed_dim': 200, 'class_num': 4, 'label_num': 20, 'dropout': 0.5}
+{'lr': 1e-08, 'weight_decay': 1e-06, 'schedule': 'CosineAnnealingLR', 'epoch': 5, 'batch_size': 32}
+
+
+
+
+
+
+=======================================================================================
+The current date and time is 2023-10-10 09:34:10.563472
+
+
+{'model_path': '/home/CodeSpace/Proj1/dataset/other_resources/bert-base-chinese', 'tokenizer_path': '/home/CodeSpace/Proj1/dataset/other_resources/bert-base-chinese', 'sentence_max_length': 350, 'embed_dim': 200, 'class_num': 4, 'label_num': 20, 'dropout': 0.5}
+{'lr': 1e-08, 'weight_decay': 1e-06, 'schedule': 'CosineAnnealingLR', 'epoch': 5, 'batch_size': 32}
+
+
+训练数据加载完成
+验证数据加载完成
+best valid F1 has improved (0.0---->0.6717463489761916)
+A new best model state  has saved

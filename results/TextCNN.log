@@ -1,0 +1,260 @@
+=======================================================================================
+TextCNN_param = { 
+    'vocab_size': 105000,
+    'sentence_max_length': 300,
+    'embed_dim': 200,
+    'class_num': 4,
+    'label_num': 20,
+    "kernel_num": 32,
+    "kernel_size": [3, 4, 5],
+    "dropout": 0.75,
+}
+
+TextCNN_train = {
+    'lr': 3e-3,
+    'weight_decay': 1e-6,
+    'schedule': 'CosineAnnealingLR',
+    'epoch': 5,
+    'batch_size': 512
+}
+
+训练数据加载完成
+验证数据加载完成
+best valid F1 has improved (0.0---->0.40570716726700357)
+A new best model state  has saved
+best valid F1 has improved (0.40570716726700357---->0.43380486909790583)
+A new best model state  has saved
+best valid F1 has improved (0.43380486909790583---->0.4366707991094792)
+A new best model state  has saved
+best valid F1 has improved (0.4366707991094792---->0.45287517190773474)
+A new best model state  has saved
+best valid F1 has improved (0.45287517190773474---->0.4623965864404963)
+A new best model state  has saved
+Training Finish !!!!!!!!
+best valid loss == 5.152719487746557e-05, best valid accuracy == 0.81743, best valid F1 == 0.4623965864404963
+training cost time == 384.64577054977417s
+
+
+
+
+=======================================================================================
+TextCNN_param = { 
+    'vocab_size': 105000,
+    'sentence_max_length': 300,
+    'embed_dim': 200,
+    'class_num': 4,
+    'label_num': 20,
+    "kernel_num": 64,
+    "kernel_size": [3, 4, 5],
+    "dropout": 0.5,
+}
+
+TextCNN_train = {
+    'lr': 3e-3,
+    'weight_decay': 1e-6,
+    'schedule': 'CosineAnnealingLR',
+    'epoch': 10,
+    'batch_size': 512
+}
+
+训练数据加载完成
+验证数据加载完成
+best valid F1 has improved (0.0---->0.4527542881594086)
+A new best model state  has saved
+best valid F1 has improved (0.4527542881594086---->0.48346418121515067)
+A new best model state  has saved
+best valid F1 has improved (0.48346418121515067---->0.5058117688300542)
+A new best model state  has saved
+best valid F1 has improved (0.5058117688300542---->0.52076646179556)
+A new best model state  has saved
+best valid F1 has improved (0.52076646179556---->0.5236861767705991)
+A new best model state  has saved
+best valid F1 has improved (0.5236861767705991---->0.526663233228697)
+A new best model state  has saved
+Training Finish !!!!!!!!
+best valid loss == 4.784619112809499e-05, best valid accuracy == 0.8305733333333334, best valid F1 == 0.526663233228697
+training cost time == 648.1275906562805s
+
+
+
+
+=======================================================================================
+TextCNN_param = { 
+    'vocab_size': 105000,
+    'sentence_max_length': 300,
+    'embed_dim': 200,
+    'class_num': 4,
+    'label_num': 20,
+    "kernel_num": 128,
+    "kernel_size": [3, 4, 5],
+    "dropout": 0.5,
+}
+
+TextCNN_train = {
+    'lr': 3e-3,
+    'weight_decay': 1e-6,
+    'schedule': 'CosineAnnealingLR',
+    'epoch': 10,
+    'batch_size': 512
+}
+
+训练数据加载完成
+验证数据加载完成
+best valid F1 has improved (0.0---->0.4744998081599206)
+A new best model state  has saved
+best valid F1 has improved (0.4744998081599206---->0.5298632130342382)
+A new best model state  has saved
+best valid F1 has improved (0.5298632130342382---->0.5392762446718418)
+A new best model state  has saved
+best valid F1 has improved (0.5392762446718418---->0.5461957835635635)
+A new best model state  has saved
+best valid F1 has improved (0.5461957835635635---->0.5590538698583083)
+A new best model state  has saved
+best valid F1 has improved (0.5590538698583083---->0.5618710223834235)
+A new best model state  has saved
+Training Finish !!!!!!!!
+best valid loss == 4.682241628567378e-05, best valid accuracy == 0.8348033333333333, best valid F1 == 0.5618710223834235
+training cost time == 984.6446042060852s
+
+
+
+
+=======================================================================================
+The current date and time is 2023-09-26 19:04:10.506514
+
+
+{'vocab_size': 105000, 'sentence_max_length': 300, 'embed_dim': 200, 'class_num': 4, 'label_num': 20, 'kernel_num': 256, 'kernel_size': [3, 4, 5], 'dropout': 0.5}
+{'lr': 0.003, 'weight_decay': 1e-06, 'schedule': 'CosineAnnealingLR', 'epoch': 10, 'batch_size': 512}
+
+
+训练数据加载完成
+验证数据加载完成
+best valid F1 has improved (0.0---->0.4898724813122162)
+A new best model state  has saved
+best valid F1 has improved (0.4898724813122162---->0.5236584534531951)
+A new best model state  has saved
+best valid F1 has improved (0.5236584534531951---->0.5413870665030899)
+A new best model state  has saved
+best valid F1 has improved (0.5413870665030899---->0.556082510345569)
+A new best model state  has saved
+best valid F1 has improved (0.556082510345569---->0.5589266431928891)
+A new best model state  has saved
+best valid F1 has improved (0.5589266431928891---->0.5603629643041739)
+A new best model state  has saved
+best valid F1 has improved (0.5603629643041739---->0.5706587295825329)
+A new best model state  has saved
+(这轮爆内存了)
+
+
+
+
+=======================================================================================
+下面是对word2vec的消融实验
+=======================================================================================
+The current date and time is 2023-09-26 20:06:19.141897
+使用word2vec_L进行词嵌入
+
+{'vocab_size': 105000, 'sentence_max_length': 300, 'embed_dim': 200, 'class_num': 4, 'label_num': 20, 'kernel_num': 64, 'kernel_size': [3, 4, 5], 'dropout': 0.5}
+{'lr': 0.003, 'weight_decay': 1e-06, 'schedule': 'CosineAnnealingLR', 'epoch': 10, 'batch_size': 512}
+
+
+训练数据加载完成
+验证数据加载完成
+best valid F1 has improved (0.0---->0.45097420935546106)
+A new best model state  has saved
+best valid F1 has improved (0.45097420935546106---->0.4788739903187417)
+A new best model state  has saved
+best valid F1 has improved (0.4788739903187417---->0.5061224077855733)
+A new best model state  has saved
+best valid F1 has improved (0.5061224077855733---->0.5256734965765163)
+A new best model state  has saved
+best valid F1 has improved (0.5256734965765163---->0.5270631582871859)
+A new best model state  has saved
+Training Finish !!!!!!!!
+best valid loss == 4.780842314163844e-05, best valid accuracy == 0.8299, best valid F1 == 0.5270631582871859
+training cost time == 745.2723424434662s
+
+
+
+
+=======================================================================================
+The current date and time is 2023-09-26 20:36:09.887838
+使用word2vec_M进行词嵌入
+
+{'vocab_size': 105000, 'sentence_max_length': 300, 'embed_dim': 200, 'class_num': 4, 'label_num': 20, 'kernel_num': 64, 'kernel_size': [3, 4, 5], 'dropout': 0.5}
+{'lr': 0.003, 'weight_decay': 1e-06, 'schedule': 'CosineAnnealingLR', 'epoch': 10, 'batch_size': 512}
+
+
+训练数据加载完成
+验证数据加载完成best valid F1 has improved (0.0---->0.45068102336510285)
+A new best model state  has saved
+best valid F1 has improved (0.45068102336510285---->0.4877655305116455)
+A new best model state  has saved
+best valid F1 has improved (0.4877655305116455---->0.5073762916296005)
+A new best model state  has saved
+best valid F1 has improved (0.5073762916296005---->0.5246136622718951)
+A new best model state  has saved
+best valid F1 has improved (0.5246136622718951---->0.5258652393437804)
+A new best model state  has saved
+best valid F1 has improved (0.5258652393437804---->0.5308349500250535)
+A new best model state  has saved
+Training Finish !!!!!!!!
+best valid loss == 4.760895649592082e-05, best valid accuracy == 0.8322933333333333, best valid F1 == 0.5308349500250535
+training cost time == 783.6364450454712s
+
+
+
+
+=======================================================================================
+The current date and time is 2023-09-26 20:57:18.824557
+使用word2vec_S进行词嵌入
+
+{'vocab_size': 105000, 'sentence_max_length': 300, 'embed_dim': 200, 'class_num': 4, 'label_num': 20, 'kernel_num': 64, 'kernel_size': [3, 4, 5], 'dropout': 0.5}
+{'lr': 0.003, 'weight_decay': 1e-06, 'schedule': 'CosineAnnealingLR', 'epoch': 10, 'batch_size': 512}
+
+
+训练数据加载完成
+验证数据加载完成
+best valid F1 has improved (0.0---->0.45565805579657026)
+A new best model state  has saved
+best valid F1 has improved (0.45565805579657026---->0.4873805862930635)
+A new best model state  has saved
+best valid F1 has improved (0.4873805862930635---->0.5033683892787728)
+A new best model state  has saved
+
+
+
+
+=======================================================================================
+The current date and time is 2023-10-09 15:26:58.830494
+
+
+{'sentence_max_length': 300, 'embed_dim': 200, 'class_num': 4, 'label_num': 20, 'kernel_num': 64, 'kernel_size': [3, 4, 5], 'dropout': 0.5}
+{'lr': 0.003, 'weight_decay': 1e-06, 'schedule': 'CosineAnnealingLR', 'epoch': 10, 'batch_size': 512}
+
+
+训练数据加载完成
+验证数据加载完成
+best valid F1 has improved (0.0---->0.22896473954389168)
+A new best model state  has saved
+best valid F1 has improved (0.22896473954389168---->0.2454513455544854)
+A new best model state  has saved
+best valid F1 has improved (0.2454513455544854---->0.2660465639499034)
+A new best model state  has saved
+best valid F1 has improved (0.2660465639499034---->0.2823023298035188)
+A new best model state  has saved
+best valid F1 has improved (0.2823023298035188---->0.3136958626393542)
+A new best model state  has saved
+best valid F1 has improved (0.3136958626393542---->0.34110602581283)
+A new best model state  has saved
+best valid F1 has improved (0.34110602581283---->0.35776328859953066)
+A new best model state  has saved
+best valid F1 has improved (0.35776328859953066---->0.3659747937584696)
+A new best model state  has saved
+best valid F1 has improved (0.3659747937584696---->0.37762415291195134)
+A new best model state  has saved
+best valid F1 has improved (0.37762415291195134---->0.3858985911841576)
+A new best model state  has saved
+Training Finish !!!!!!!!
+best valid loss == 6.005565226078033e-05, best valid accuracy == 0.78842, best valid F1 == 0.3858985911841576
+training cost time == 34.04361438751221s

@@ -1,0 +1,117 @@
+=======================================================================================
+The current date and time is 2023-10-01 17:05:56.676550
+
+
+{'sentence_max_length': 150, 'embed_dim': 200, 'class_num': 4, 'label_num': 20, 'hidden_size': 256, 'n_layers': 2, 'dropout': 0.35}
+{'lr': 0.0005, 'weight_decay': 1e-06, 'schedule': 'CosineAnnealingLR', 'epoch': 30, 'batch_size': 512}
+
+
+训练数据加载完成
+验证数据加载完成
+best valid F1 has improved (0.0---->0.45234966633898277)
+A new best model state  has saved
+best valid F1 has improved (0.45234966633898277---->0.5122175596790629)
+A new best model state  has saved
+best valid F1 has improved (0.5122175596790629---->0.5211514588906774)
+A new best model state  has saved
+best valid F1 has improved (0.5211514588906774---->0.546042261520554)
+A new best model state  has saved
+best valid F1 has improved (0.546042261520554---->0.5624577568741921)
+A new best model state  has saved
+best valid F1 has improved (0.5624577568741921---->0.5684361390100358)
+A new best model state  has saved
+best valid F1 has improved (0.5684361390100358---->0.5715868883760891)
+A new best model state  has saved
+best valid F1 has improved (0.5715868883760891---->0.5757719623486391)
+A new best model state  has saved
+best valid F1 has improved (0.5757719623486391---->0.5766578522733427)
+A new best model state  has saved
+best valid F1 has improved (0.5766578522733427---->0.5870898507251868)
+A new best model state  has saved
+best valid F1 has improved (0.5870898507251868---->0.5912570062992142)
+A new best model state  has saved
+best valid F1 has improved (0.5912570062992142---->0.5913259093248642)
+A new best model state  has saved
+best valid F1 has improved (0.5913259093248642---->0.5929215521144965)
+A new best model state  has saved
+best valid F1 has improved (0.5929215521144965---->0.5977393878532933)
+A new best model state  has saved
+best valid F1 has improved (0.5977393878532933---->0.5982709329289517)
+A new best model state  has saved
+best valid F1 has improved (0.5982709329289517---->0.5997650282138306)
+A new best model state  has saved
+best valid F1 has improved (0.5997650282138306---->0.6011959062836386)
+A new best model state  has saved
+best valid F1 has improved (0.6011959062836386---->0.6017344210657853)
+A new best model state  has saved
+best valid F1 has improved (0.6017344210657853---->0.6021102938460795)
+A new best model state  has saved
+best valid F1 has improved (0.6021102938460795---->0.604053751426972)
+A new best model state  has saved
+
+
+
+
+=======================================================================================
+The current date and time is 2023-10-01 18:27:31.555026
+
+
+{'sentence_max_length': 150, 'embed_dim': 200, 'class_num': 4, 'label_num': 20, 'hidden_size': 256, 'n_layers': 1, 'dropout': 0.2}
+{'lr': 0.0005, 'weight_decay': 1e-06, 'schedule': 'CosineAnnealingLR', 'epoch': 30, 'batch_size': 512}
+
+
+训练数据加载完成
+验证数据加载完成
+best valid F1 has improved (0.0---->0.4832435589671684)
+A new best model state  has saved
+best valid F1 has improved (0.4832435589671684---->0.5338889105270266)
+A new best model state  has saved
+best valid F1 has improved (0.5338889105270266---->0.5371189857365318)
+A new best model state  has saved
+best valid F1 has improved (0.5371189857365318---->0.5604400667054829)
+A new best model state  has saved
+best valid F1 has improved (0.5604400667054829---->0.5658405361002564)
+A new best model state  has saved
+best valid F1 has improved (0.5658405361002564---->0.5683480677365643)
+A new best model state  has saved
+best valid F1 has improved (0.5683480677365643---->0.5710865653254307)
+A new best model state  has saved
+best valid F1 has improved (0.5710865653254307---->0.5710897410080212)
+
+
+
+
+=======================================================================================
+The current date and time is 2023-10-01 19:06:58.095245
+
+
+{'sentence_max_length': 150, 'embed_dim': 200, 'class_num': 4, 'label_num': 20, 'hidden_size': 256, 'n_layers': 2, 'dropout': 0.35}
+{'lr': 0.0005, 'weight_decay': 1e-06, 'schedule': 'CosineAnnealingLR', 'epoch': 30, 'batch_size': 512}
+
+
+训练数据加载完成
+验证数据加载完成
+best valid F1 has improved (0.0---->0.43533549702562113)
+A new best model state  has saved
+best valid F1 has improved (0.43533549702562113---->0.4875832359891802)
+A new best model state  has saved
+best valid F1 has improved (0.4875832359891802---->0.5327042621461221)
+A new best model state  has saved
+best valid F1 has improved (0.5327042621461221---->0.54412183128168)
+A new best model state  has saved
+best valid F1 has improved (0.54412183128168---->0.5555096173710632)
+A new best model state  has saved
+best valid F1 has improved (0.5555096173710632---->0.570942709015396)
+A new best model state  has saved
+best valid F1 has improved (0.570942709015396---->0.5769307908956657)
+A new best model state  has saved
+best valid F1 has improved (0.5769307908956657---->0.5784179427003548)
+A new best model state  has saved
+best valid F1 has improved (0.5784179427003548---->0.5863594364650544)
+A new best model state  has saved
+best valid F1 has improved (0.5863594364650544---->0.5891382264721227)
+A new best model state  has saved
+best valid F1 has improved (0.5891382264721227---->0.5913491593804483)
+A new best model state  has saved
+best valid F1 has improved (0.5913491593804483---->0.593288844044494)
+A new best model state  has saved

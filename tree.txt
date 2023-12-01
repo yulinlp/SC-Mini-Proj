@@ -1,0 +1,64 @@
+.
+├── config.py
+├── dataset
+│   ├── other_resources
+│   │   ├── hit_stopwords.txt
+│   │   ├── ratings.csv.zip
+│   │   └── word2vec
+│   │       ├── word2vec_first.model
+│   │       ├── word2vec_L.model
+│   │       ├── word2vec_M.model
+│   │       └── word2vec_S.model
+│   ├── test_data
+│   │   ├── protocol.txt
+│   │   ├── README.txt
+│   │   └── sentiment_analysis_testa.csv
+│   ├── train_data
+│   │   ├── ~$ntiment_analysis_trainingset_annotations.docx
+│   │   ├── protocol.txt
+│   │   ├── README.txt
+│   │   ├── sentiment_analysis_trainingset_annotations.docx
+│   │   └── sentiment_analysis_trainingset.csv
+│   └── val_data
+│       ├── protocol.txt
+│       ├── README.txt
+│       ├── sentiment_analysis_validationset_annotations.docx
+│       └── sentiment_analysis_validationset.csv
+├── log
+├── models
+│   ├── My_BERT.py
+│   ├── My_LSTM.py
+│   ├── My_TextCNN.py
+│   └── __pycache__
+│       ├── My_BERT.cpython-38.pyc
+│       ├── My_LSTM.cpython-38.pyc
+│       └── My_TextCNN.cpython-38.pyc
+├── __pycache__
+│   ├── config.cpython-38.pyc
+│   ├── test.cpython-38.pyc
+│   ├── train.cpython-38.pyc
+│   └── valid.cpython-38.pyc
+├── README.md
+├── results
+│   ├── BERT.log
+│   ├── Best_BERT.pth
+│   ├── Best_LSTM.pth
+│   ├── Best_TextCNN.pth
+│   ├── LSTM.log
+│   └── TextCNN.log
+├── run.py
+├── test.py
+├── train.py
+├── tree.txt
+├── utils
+│   ├── data_loader.py
+│   ├── preprocessing.py
+│   ├── __pycache__
+│   │   ├── data_loader.cpython-38.pyc
+│   │   ├── preprocessing.cpython-38.pyc
+│   │   └── strategy.cpython-38.pyc
+│   └── strategy.py
+├── valid.py
+└── word2vec_pretrain.py
+
+13 directories, 48 files

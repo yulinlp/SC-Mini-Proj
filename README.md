@@ -69,7 +69,7 @@
 见 `专业实践：情感分类技术实践.pdf`
 
 ### 3. 数据集说明
-- `dataset/test_data` 、 `dataset/val_data` 、 `dataset/train_data` 来自于 `AIchallenger2018` 竞赛， 详见 `2.项目说明` 。
+- `dataset/test_data` 、 `dataset/val_data` 、 `dataset/train_data` 来自于 `AIchallenger2018` 竞赛， 详见 **2.项目说明** 。
 - `other_resources/ratings.csv.zip` 来自于 `https://github.com/SophonPlus/ChineseNlpCorpus/blob/master/datasets/yf_dianping/intro.ipynb`, 为大众点评 `canguan` 数据集。该数据集作为 `word2vec` 的部分训练集。
 - `other_resources/hit_stopwords.txt` 来自于 `https://github.com/goto456/stopwords/blob/master/hit_stopwords.txt`, 为中文停用词表, 用于清洗数据。
 
